@@ -1,17 +1,17 @@
-Testing NPM Module
+Json to Config file
 ==================
 
-A small library providing utility methods to `escape` and `unescape` HTML entities
+A small library for creating a schema file from json file data.
 
 ## Installation
 
-  npm install json-to-config --save
+  npm install json-to-config --save-dev
 
 ## Usage
 
-  var json-to-config = require('json-to-config')
-      escape = json-to-config.escape,
-      unescape = json-to-config.unescape;
+  var json_to_config = require('json-to-config')
+      escape = json_to_config.escape,
+      unescape = json_to_config.unescape;
 
   var html = '<h1>Hello World</h1>',
       escaped = escape(html),
@@ -21,13 +21,15 @@ A small library providing utility methods to `escape` and `unescape` HTML entiti
 
 ## Tests
 
-  npm test
+  npm test // shortcut to npm run test
 
 ## Contributing
 
-In lieu of a formal styleguide, take care to maintain the existing coding style.
+Pending docs.
 Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Release History
 
 * 0.1.0 Initial release
+* 0.1.2 Initial release
+* 0.1.3 Initial release
