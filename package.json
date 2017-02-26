@@ -4,7 +4,11 @@
   "description": "Small library for create config json file",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "divider": "node log.js"
+  },
+    "engines": {
+    "node": ">=6.10.0"
   },
   "repository": {
     "type": "git",
